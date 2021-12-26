@@ -1,0 +1,11 @@
+import 'dart:io';
+void main() {
+  var pie=3.14;
+  var vol;
+  print("Enter the Radius of sphere");
+  var r=int.parse(stdin.readLineSync()!);
+  print("the radius is $r");
+  vol=4/3*pie*r*r*r;
+  print("$vol");
+
+}
